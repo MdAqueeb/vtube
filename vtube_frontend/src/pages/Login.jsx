@@ -68,9 +68,9 @@ const Login = () => {
     <div className="min-h-screen bg-black flex items-center justify-center p-6 selection:bg-red-500/30">
       <div className="w-full max-w-sm bg-zinc-900 border border-zinc-800 rounded-3xl p-10 shadow-2xl animate-in fade-in zoom-in-95 duration-500">
         <div className="text-center mb-10">
-          <div className="bg-red-600/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-inner ring-1 ring-red-600/30">
+          {/* <div className="bg-red-600/10 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-inner ring-1 ring-red-600/30">
             <LogIn className="text-red-500" size={32} />
-          </div>
+          </div> */}
           <h1 className="text-3xl font-black text-white tracking-tight">Welcome Back</h1>
           <p className="text-zinc-500 text-sm mt-3 font-medium">Continue your journey with Vtube</p>
         </div>
